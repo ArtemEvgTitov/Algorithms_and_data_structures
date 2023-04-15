@@ -103,6 +103,7 @@ public class List {
         return null;
     }
 
+    // Метод разворота односвязного списка
     public void revert() {
         if (head != null && head.next != null) {
             revert(head.next, head);
